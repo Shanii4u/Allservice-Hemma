@@ -1,0 +1,54 @@
+/* FullCalendar base styles */
+.calendar {
+  height: 100%;
+  width: 100%;
+}
+
+/* Calendar header */
+.fc-header-toolbar {
+  padding: 1rem;
+  margin-bottom: 1rem !important;
+}
+
+/* Calendar buttons */
+.fc-button {
+  background-color: hsl(var(--primary)) !important;
+  border: none !important;
+  color: hsl(var(--primary-foreground)) !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500 !important;
+  border-radius: var(--radius) !important;
+}
+
+.fc-button:hover {
+  opacity: 0.9 !important;
+}
+
+.fc-button-active {
+  background-color: hsl(var(--secondary)) !important;
+  color: hsl(var(--secondary-foreground)) !important;
+}
+
+/* Event styles */
+.fc-event {
+  background-color: hsl(var(--primary)) !important;
+  border: none !important;
+  padding: 0.25rem !important;
+  border-radius: var(--radius) !important;
+}
+
+.fc-event-title {
+  color: hsl(var(--primary-foreground)) !important;
+  font-weight: 500 !important;
+}
+
+/* Today highlight */
+.fc-day-today {
+  background-color: hsl(var(--accent)) !important;
+}
+
+/* Grid lines */
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: hsl(var(--border)) !important;
+} 

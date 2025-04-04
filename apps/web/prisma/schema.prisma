@@ -1,0 +1,78 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  password      String
+  role          String    @default("USER")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  bookings      Booking[]
+  employee      Employee?
+  customer      Customer?
+}
+
+model Booking {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  service     String    // Can be: "RESIDENTIAL", "COMMERCIAL", "DEEP"
+  status      String    @default("PENDING") // Can be: "PENDING", "CONFIRMED", "COMPLETED", "CANCELLED"
+  date        DateTime
+  address     String
+  notes       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Employee {
+  id          String    @id @default(cuid())
+  userId      String    @unique
+  user        User      @relation(fields: [userId], references: [id])
+  department  String    // Can be: "CLEANING", "MAINTENANCE", "GARDENING"
+  startDate   DateTime
+  skills      String?
+  workAssignments WorkAssignment[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Customer {
+  id          String    @id @default(cuid())
+  userId      String    @unique
+  user        User      @relation(fields: [userId], references: [id])
+  address     String
+  city        String
+  postalCode  String
+  workAssignments WorkAssignment[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model WorkAssignment {
+  id          String    @id @default(cuid())
+  employeeId  String
+  employee    Employee  @relation(fields: [employeeId], references: [id])
+  customerId  String
+  customer    Customer  @relation(fields: [customerId], references: [id])
+  taskType    String    // Can be: "CLEANING", "MAINTENANCE", "GARDENING"
+  date        DateTime
+  startTime   DateTime
+  endTime     DateTime
+  description String
+  priority    String    @default("NORMAL") // Can be: "LOW", "NORMAL", "HIGH", "URGENT"
+  status      String    @default("PENDING") // Can be: "PENDING", "IN_PROGRESS", "COMPLETED", "CANCELLED"
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+} 

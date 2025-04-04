@@ -1,0 +1,23 @@
+2025-03-28T11:35:06.343524Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon"), AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie"), AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie")}
+2025-03-28T11:35:06.346226Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-28T11:35:06.380687Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2025-03-28T11:35:06.446020Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2025-03-28T11:35:06.446133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-28T11:35:06.756062Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\1575e3f04e0a52c3-turbo.log.2025-03-28")}
+2025-03-28T11:35:06.756104Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-28T11:35:09.452095Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui"), AnchoredSystemPathBuf("packages\\ui\\tsup.config.bundled_r3tvj2mkjs.mjs")}
+2025-03-28T11:35:09.452118Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-03-28T11:35:14.873814Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-03-28T11:35:14.873844Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-03-28T11:35:15.057603Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-03-28T11:35:15.057623Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-03-28T11:35:17.542006Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-03-28T11:35:17.542031Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-03-28T11:35:17.648746Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-03-28T11:35:17.648821Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-03-28T11:35:17.745217Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-03-28T11:35:17.745244Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@all-service-hemma/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-03-28T11:37:06.645071Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\1575e3f04e0a52c3-turbo.log.2025-03-28")}
+2025-03-28T11:37:06.645669Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-28T11:37:11.042522Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\1575e3f04e0a52c3-turbo.log.2025-03-28")}
+2025-03-28T11:37:11.042543Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))

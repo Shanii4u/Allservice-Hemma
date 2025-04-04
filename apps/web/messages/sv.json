@@ -1,0 +1,293 @@
+{
+  "Home": {
+    "hero": {
+      "title": "Professionella städtjänster i Järfälla",
+      "subtitle": "Upplev skillnaden med vårt expertteam. Vi erbjuder högkvalitativa städtjänster för hem och företag.",
+      "bookNow": "Boka Nu",
+      "learnMore": "Läs Mer"
+    },
+    "services": {
+      "title": "Våra Tjänster",
+      "items": {
+        "residential": {
+          "title": "Hemstädning",
+          "description": "Komplett hemstädning anpassad efter dina behov"
+        },
+        "commercial": {
+          "title": "Företagsstädning",
+          "description": "Professionella städlösningar för företag"
+        },
+        "deep": {
+          "title": "Djupstädning",
+          "description": "Grundlig städning för speciella tillfällen eller säsongsbehov"
+        }
+      }
+    }
+  },
+  "Navigation": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "about": "Om Oss",
+    "contact": "Kontakt",
+    "book": "Boka Nu",
+    "signIn": "Logga In",
+    "signOut": "Logga Ut"
+  },
+  "Auth": {
+    "signIn": {
+      "title": "Logga in på ditt konto",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "submit": "Logga in",
+      "rememberMe": "Kom ihåg mig",
+      "forgotPassword": "Glömt lösenord?",
+      "noAccount": "Har du inget konto?",
+      "signUp": "Registrera dig",
+      "error": {
+        "invalidCredentials": "Ogiltig e-post eller lösenord",
+        "unexpected": "Ett oväntat fel inträffade"
+      }
+    },
+    "signOut": "Logga ut"
+  },
+  "Dashboard": {
+    "title": "Översikt",
+    "welcome": "Välkommen",
+    "stats": {
+      "title": "Snabb Statistik",
+      "todayBookings": "Dagens Bokningar",
+      "pendingBookings": "Väntande Bokningar",
+      "totalRevenue": "Total Intäkt"
+    },
+    "recentBookings": {
+      "title": "Senaste Bokningar",
+      "empty": "Inga senaste bokningar"
+    },
+    "quickActions": {
+      "title": "Snabbåtgärder",
+      "newBooking": "Ny Bokning",
+      "viewSchedule": "Visa Schema",
+      "reports": "Visa Rapporter"
+    },
+    "bookings": {
+      "title": "Bokningar",
+      "viewCalendar": "Visa Kalender",
+      "createNew": "Skapa Ny",
+      "manageExisting": "Hantera Befintliga",
+      "newBooking": "Ny Bokning",
+      "editBooking": "Redigera Bokning",
+      "title": "Titel",
+      "customer": "Kund",
+      "selectCustomer": "Välj Kund",
+      "employee": "Anställd",
+      "selectEmployee": "Välj Anställd",
+      "status": "Status",
+      "selectStatus": "Välj Status",
+      "statuses": {
+        "pending": "Väntande",
+        "confirmed": "Bekräftad",
+        "completed": "Slutförd",
+        "cancelled": "Avbruten"
+      },
+      "cancel": "Avbryt",
+      "create": "Skapa",
+      "update": "Uppdatera"
+    },
+    "customers": {
+      "title": "Kunder",
+      "register": {
+        "title": "Registrera Kund",
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "address": "Adress",
+        "city": "Stad",
+        "postalCode": "Postnummer",
+        "submit": "Registrera Kund",
+        "success": "Kund registrerad framgångsrikt",
+        "error": "Kunde inte registrera kund"
+      },
+      "list": {
+        "title": "Kundlista",
+        "name": "Namn",
+        "email": "E-post",
+        "address": "Adress",
+        "city": "Stad",
+        "postalCode": "Postnummer",
+        "actions": "Åtgärder",
+        "edit": "Redigera",
+        "delete": "Ta bort",
+        "confirmDelete": "Är du säker på att du vill ta bort denna kund?",
+        "deleteSuccess": "Kunden har tagits bort",
+        "deleteError": "Kunde inte ta bort kund",
+        "error": "Kunde inte hämta kunder"
+      },
+      "manage": "Hantera Kunder"
+    },
+    "employees": {
+      "title": "Anställda",
+      "register": {
+        "title": "Registrera Anställd",
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "department": "Avdelning",
+        "selectDepartment": "Välj Avdelning",
+        "departments": {
+          "cleaning": "Städning",
+          "maintenance": "Underhåll",
+          "gardening": "Trädgård"
+        },
+        "startDate": "Startdatum",
+        "skills": "Kompetenser",
+        "skillsPlaceholder": "Ange anställds kompetenser (t.ex. fönsterputs, golvvård)",
+        "submit": "Registrera Anställd",
+        "success": "Anställd registrerad framgångsrikt",
+        "error": "Kunde inte registrera anställd"
+      },
+      "list": {
+        "title": "Lista över Anställda",
+        "name": "Namn",
+        "email": "E-post",
+        "department": "Avdelning",
+        "startDate": "Startdatum",
+        "skills": "Kompetenser",
+        "noSkills": "Inga kompetenser listade",
+        "actions": "Åtgärder",
+        "edit": "Redigera",
+        "delete": "Ta bort",
+        "confirmDelete": "Är du säker på att du vill ta bort denna anställd?",
+        "deleteSuccess": "Anställd har tagits bort",
+        "deleteError": "Kunde inte ta bort anställd",
+        "error": "Kunde inte hämta anställda"
+      },
+      "manage": "Hantera Anställda",
+      "schedule": "Schema"
+    },
+    "work": {
+      "title": "Arbete",
+      "assign": {
+        "title": "Tilldela Arbete",
+        "employee": "Anställd",
+        "selectEmployee": "Välj Anställd",
+        "customer": "Kund",
+        "selectCustomer": "Välj Kund",
+        "taskType": "Arbetstyp",
+        "selectTaskType": "Välj Arbetstyp",
+        "taskTypes": {
+          "cleaning": "Städning",
+          "maintenance": "Underhåll",
+          "gardening": "Trädgård"
+        },
+        "date": "Datum",
+        "startTime": "Starttid",
+        "endTime": "Sluttid",
+        "description": "Beskrivning",
+        "priority": "Prioritet",
+        "priorities": {
+          "low": "Låg",
+          "normal": "Normal",
+          "high": "Hög",
+          "urgent": "Akut"
+        },
+        "submit": "Tilldela Arbete",
+        "success": "Arbete tilldelat framgångsrikt",
+        "error": "Kunde inte tilldela arbete"
+      },
+      "status": {
+        "title": "Arbetsstatus",
+        "employee": "Anställd",
+        "customer": "Kund",
+        "taskType": "Arbetstyp",
+        "date": "Datum",
+        "time": "Tid",
+        "priority": "Prioritet",
+        "status": "Status",
+        "actions": "Åtgärder",
+        "statuses": {
+          "pending": "Väntande",
+          "inProgress": "Pågående",
+          "completed": "Slutfört",
+          "cancelled": "Avbrutet"
+        },
+        "viewDescription": "Visa Beskrivning",
+        "descriptionCopied": "Beskrivning kopierad till urklipp",
+        "updateSuccess": "Status uppdaterad framgångsrikt",
+        "updateError": "Kunde inte uppdatera status",
+        "error": "Kunde inte hämta arbetsuppdrag"
+      }
+    },
+    "reports": {
+      "title": "Rapporter",
+      "bookings": "Bokningar",
+      "employees": "Anställda",
+      "revenue": "Intäkter"
+    }
+  },
+  "Footer": {
+    "company": "Företag",
+    "about": "Om Oss",
+    "contact": "Kontakt",
+    "services": "Tjänster",
+    "cleaning": "Städning",
+    "maintenance": "Underhåll",
+    "legal": "Juridiskt",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "rights": "Alla rättigheter förbehållna."
+  },
+  "Index": {
+    "title": "Välkommen till Allservice Hemma",
+    "subtitle": "Din partner för professionella hemtjänster",
+    "description": "Vi erbjuder högkvalitativa tjänster för ditt hem och trädgård"
+  },
+  "Services": {
+    "title": "Våra Tjänster",
+    "description": "Vi erbjuder ett brett utbud av tjänster för ditt hem"
+  },
+  "About": {
+    "title": "Om Oss",
+    "ourStory": {
+      "title": "Vår Historia",
+      "content": "Allservice Hemma grundades med visionen att erbjuda högkvalitativa hem- och underhållstjänster till rimliga priser."
+    },
+    "ourValues": {
+      "title": "Våra Värderingar"
+    },
+    "team": {
+      "title": "Vårt Team"
+    }
+  },
+  "Contact": {
+    "title": "Kontakta Oss",
+    "contactInfo": {
+      "title": "Kontaktinformation"
+    },
+    "openingHours": {
+      "title": "Öppettider"
+    },
+    "contactForm": {
+      "title": "Skicka ett meddelande",
+      "name": "Namn",
+      "email": "E-post",
+      "message": "Meddelande",
+      "submit": "Skicka"
+    }
+  },
+  "Auth": {
+    "signIn": "Logga in",
+    "signOut": "Logga ut",
+    "register": "Registrera",
+    "email": "E-post",
+    "password": "Lösenord",
+    "forgotPassword": "Glömt lösenord?",
+    "noAccount": "Har du inget konto?",
+    "hasAccount": "Har du redan ett konto?"
+  },
+  "Navigation": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "about": "Om Oss",
+    "contact": "Kontakt"
+  }
+} 

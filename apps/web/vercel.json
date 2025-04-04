@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "outputDirectory": ".next",
+  "regions": ["fra1"],
+  "env": {
+    "NEXTAUTH_URL": "https://all-service-hemma-app.vercel.app",
+    "DEFAULT_LOCALE": "sv"
+  }
+} 
