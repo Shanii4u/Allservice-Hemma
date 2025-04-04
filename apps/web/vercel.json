@@ -1,8 +1,9 @@
 {
   "version": 2,
   "framework": "nextjs",
-  "buildCommand": "cd ../.. && pnpm install && pnpm build",
+  "buildCommand": "cd ../.. && pnpm install && cd apps/web && pnpm build",
   "installCommand": "cd ../.. && pnpm install",
+  "rootDirectory": "apps/web",
   "outputDirectory": ".next",
   "regions": ["fra1"],
   "env": {
