@@ -2,6 +2,7 @@
   "name": "all-service-hemma",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@8.15.1",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -27,7 +28,6 @@
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
   },
-  "packageManager": "pnpm@8.15.1",
   "engines": {
     "node": "18.x",
     "pnpm": ">=8.0.0"
