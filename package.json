@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm install && cd packages/ui && npm install && npm run build && cd ../../apps/web && npm install && npm run build",
+    "build": "npm install -g tsup && npm install && cd packages/ui && npm install && npm run build && cd ../../apps/web && npm install && npm run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
