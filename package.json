@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "cd packages/ui && npm run build && cd ../../apps/web && npm run build",
+    "build": "cd packages/ui && npm install && npm run build && cd ../../apps/web && npm install && npm run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -25,6 +25,8 @@
     "@prisma/client": "^5.10.0",
     "next": "^14.1.0",
     "prisma": "^5.10.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
