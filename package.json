@@ -29,9 +29,9 @@
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
   },
-  "packageManager": "npm@10.2.4",
+  "packageManager": "npm@10.x",
   "engines": {
-    "node": "18.17.0",
-    "npm": "10.2.4"
+    "node": "18.x",
+    "npm": "10.x"
   }
 }

@@ -10,7 +10,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "npm install typescript@5.3.3 tsup@8.0.2 && npx tsup",
+    "build": "npm install && npx tsup",
     "dev": "npx tsup --watch",
     "lint": "eslint .",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
@@ -34,7 +34,7 @@
     "react": "^19.1.0"
   },
   "engines": {
-    "node": "18.17.0",
-    "npm": "10.2.4"
+    "node": "18.x",
+    "npm": "10.x"
   }
 }
