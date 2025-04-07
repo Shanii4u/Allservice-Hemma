@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm install && cd packages/ui && npm install && npm run build && cd ../../apps/web && npm install && npm run build",
+    "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -29,9 +29,8 @@
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
   },
-  "packageManager": "npm@10.x",
+  "packageManager": "npm@10.2.4",
   "engines": {
-    "node": "18.x",
-    "npm": "10.x"
+    "node": "18.x"
   }
 }
