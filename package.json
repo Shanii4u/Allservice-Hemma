@@ -2,6 +2,10 @@
   "name": "all-service-hemma",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x",
+    "pnpm": ">=8.0.0"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -27,8 +31,5 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
