@@ -10,18 +10,18 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "npm install typescript tsup && npx tsup",
+    "build": "npm install typescript@5.3.3 tsup@8.0.2 && npx tsup",
     "dev": "npx tsup --watch",
     "lint": "eslint .",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@types/react": "^19",
+    "@types/react": "^19.1.0",
     "@types/react-native": "^0.73.0",
-    "eslint": "^8",
+    "eslint": "^8.57.0",
     "react": "^19.1.0",
-    "tsup": "^8.0.0",
-    "typescript": "^5"
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.2",
@@ -32,5 +32,9 @@
   },
   "peerDependencies": {
     "react": "^19.1.0"
+  },
+  "engines": {
+    "node": "18.17.0",
+    "npm": "10.2.4"
   }
 }
