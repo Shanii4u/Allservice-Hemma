@@ -10,7 +10,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "npm install && npx tsup",
+    "build": "npm install typescript tsup && npx tsup",
     "dev": "npx tsup --watch",
     "lint": "eslint .",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
