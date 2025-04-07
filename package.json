@@ -2,12 +2,8 @@
   "name": "all-service-hemma",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "18.x",
-    "pnpm": ">=8.0.0"
-  },
   "scripts": {
-    "build": "turbo run build",
+    "build": "npm install && cd packages/ui && npm install && npm run build && cd ../../apps/web && npm install && npm run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -16,8 +12,9 @@
   "devDependencies": {
     "@types/react-native": "^0.73.0",
     "@types/react-native-vector-icons": "^6.4.18",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "turbo": "^1.13.0",
+    "turbo": "^1.12.3",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
@@ -31,5 +28,9 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.6.0"
+  },
+  "packageManager": "npm@10.2.4",
+  "engines": {
+    "node": ">=18.17.0"
   }
 }
